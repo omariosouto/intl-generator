@@ -66,6 +66,13 @@ exportLanguagesJSON()
 
 That's exactly the format that `react-intl` want to translate your project.
 
+```js
+<FormattedMessage id="Hello World"/> // Hello World / Olá Mundo
+
+<FormattedMessage id="default.yourmessagegoeshere" values={{name: <b>{name}</b>}}/> // Your message goes here {name} / Sua mensagem vai aqui {name}
+
+```
+
 5 - To generate that JSON whenever you update the `setupi18n.js` with the `react-scripts start` command running:
 
 - Install these two libraries `npm install --save-dev concurrently nodemon`;
