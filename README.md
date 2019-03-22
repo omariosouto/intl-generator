@@ -1,6 +1,6 @@
-# intlgenerator
+# intl-generator
 
-> npm install intlgenerator
+> npm install intl-generator
 
 This library is very good working with: https://github.com/yahoo/react-intl/
 If you wan't to use it to generate your JSON file with another i18n library, you could try or just request/send a PR :) 
@@ -18,8 +18,10 @@ If you wan't to use it to generate your JSON file with another i18n library, you
 
 > **!!!WARNING!!!** this file won't be imported in your react application!!! 
 
+- Run this command `npm install intl-generator`
+
 ```js
-const { intlgeneratorSetup } = require('intlgenerator')
+const { intlgeneratorSetup } = require('intl-generator')
 
 const { addTranslations, exportLanguagesJSON } = intlgeneratorSetup('en-US')
 

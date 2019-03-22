@@ -1,5 +1,5 @@
-const intlgeneratorSetup = require('./src/intlgeneratorSetup')
+const intlgeneratorSetup = require('./src/intlgeneratorSetup');
 
 module.exports = {
-  intlgeneratorSetup
+  intlgeneratorSetup,
 };
